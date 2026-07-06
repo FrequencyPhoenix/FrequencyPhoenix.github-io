@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Мой первый сайт, созданный на коленке, но с душой">
+    <title>Мой первый сайт</title>
+    <style>
+        /* Базовые стили для улучшения внешнего вида */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+        .Wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 2px solid #ddd;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .Rudolph {
+            display: flex;
+            gap: 20px;
+        }
+        .menu__item {
+            text-decoration: none;
+            color: #2980b9;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        .menu__item:hover {
+            color: #e74c3c;
+        }
+        .main {
+            padding: 20px 0;
+        }
+        .about {
+            background: #ecf0f1;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .about h2 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            color: #7f8c8d;
+            border-top: 1px solid #ddd;
+            padding-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="Wrapper">
+        <header class="header">
+            <div class="logo">Логотип</div>
+            <nav class="Rudolph">
+                <a class="menu__item" href="#">Главная</a>
+                <a class="menu__item" href="#">О нас</a>
+                <a class="menu__item" href="#">Услуги</a>
+                <a class="menu__item" href="#">Контакты</a>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class="about">
+                <h2>Добро пожаловать на мой первый сайт!</h2>
+                <p>Мы рады, что вы посетили нашу страницу. Здесь вы найдёте много интересного.</p>
+                <p>Этот сайт создан с помощью HTML и CSS в образовательных целях.</p>
+            </section>
+
+            <section>
+                <h3>Немного о проекте</h3>
+                <p>Я изучаю веб-разработку и этот сайт – мой первый шаг. В будущем здесь будет больше контента.</p>
+                <!-- Пример изображения (замените src на реальный файл) -->
+                <img src="https://via.placeholder.com/400x200" alt="Пример изображения" style="max-width:100%;">
+            </section>
+        </main>
+
+        <footer>
+            &copy; 2025 Мой первый сайт. Все права защищены.
+        </footer>
+    </div> <!-- закрываем Wrapper -->
+</body>
+</html>
